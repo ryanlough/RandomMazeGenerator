@@ -1,0 +1,8 @@
+Work done:
+So far in our final project, you are able to create an instance of all of the classes.
+Every constructor works completely and many method stubs are present.
+
+Work needed:
+Implementation of big-bang and image elements.
+Construction of both algorithms.
+Random maze generation.

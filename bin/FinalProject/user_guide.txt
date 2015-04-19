@@ -1,0 +1,4 @@
+User guide:
+Press z for breadth first search.
+Press x for depth first search.
+Press g to generate a new maze.

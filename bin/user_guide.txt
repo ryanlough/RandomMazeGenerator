@@ -1,0 +1,6 @@
+User guide:
+Press z for breadth first search.
+Press x for depth first search.
+press c to solve the maze.
+press v to solve the maze without animation.
+Press g to generate a new maze.

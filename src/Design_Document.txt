@@ -1,0 +1,47 @@
+Design:
+
+Posn Class:
+Represents a position
+int x : x cooridinate
+int y : y cooridinate
+
+IRoom:
+Interface for representing Rooms and Walls
+Wall:
+Empty object.
+Room:
+Represents a room in a maze
+Posn coord : Position in maze
+IRoom north
+IRoom south
+IRoom east
+IRoom west
+A room either links to another room, 
+or to a wall depending on its position in a maze.
+
+Will contain methods for connecting rooms together and
+checking if an IRoom is a wall.
+
+KObjs Class:
+An object for computing algorithms
+Posn pos: Location in a maze
+String dir: A string to represent the direction 
+travelled from.
+
+Maze Class:
+A class for representing Mazes
+ArrayList<Room> : rooms to Represent rooms
+int width
+int height
+To represent the size of the maze
+Methods for generating maze using Kruskells
+
+Algorithms Class:
+Static class. 
+Breadth and Depth first searches
+
+Maze Game Class:
+a class for reprsenting the game
+Maze maze: The maze for the game
+Methods for implementing the algorithms on a maze
+Drawing and input methods
